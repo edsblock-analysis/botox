@@ -1,0 +1,15 @@
+/* template: hcp (layer: template + site) */
+.page--hcp .layout-main {
+  background: var(--color-surface, #fff);
+  border-top: 3px solid var(--cta-button-bg, #0f3d6d);
+}
+.page--hcp .layout-header {
+  background: var(--color-mute, #f0f4f8);
+  border-bottom-color: var(--color-rule, #cfd8e3);
+}
+.page--hcp .layout-brand::after {
+  content: ' · HCP';
+  font-weight: 600;
+  font-size: 0.85em;
+  opacity: 0.85;
+}

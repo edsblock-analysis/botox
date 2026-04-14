@@ -10,6 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
+
 :root {
   /* colors */
   --background-color: white;
@@ -323,4 +324,5 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
 
